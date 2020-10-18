@@ -11,7 +11,7 @@ public class LambdaMethods {
 			//	System.out.println(s);
 			//}
 		//}, "repeat");
-		
+	
 		//2. Call the printCustonMessage method using a lambda so that the String prints backwards.
 		
 		printCustomMessage((s)->{
@@ -19,6 +19,8 @@ public class LambdaMethods {
 				System.out.println(s);
 			}
 		}, "repeat");
+		
+
 		
 	
 		//3. Call the printCustonMessage method using a lambda so that the String prints with a mix between upper an lower case characters.
