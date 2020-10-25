@@ -1,5 +1,6 @@
 package _03_Sorting_With_Streams;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.stream.Stream;
@@ -14,9 +15,15 @@ public class StreamSorter {
 		
 		//1. Convert the Integer array to Stream object.
 		
+		Stream<Integer> stream = Arrays.stream(nums);
+		
 		//2. Use the sorted method of the stream to sort the numbers.
+		Arrays.stream(nums).sorted().forEach(System.out::println);;
 		
 		//3. Use the forEach method with a lambda to print all the elements of the sorted Stream.
 		//   They should be in ascending order.
+		
+		
+	
 	}
 }
